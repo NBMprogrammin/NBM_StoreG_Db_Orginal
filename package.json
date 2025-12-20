@@ -1,0 +1,29 @@
+{
+    "private": true,
+    "name": "laravel-api",
+    "version": "1.0.0",
+    "description": "Laravel API Backend",
+    "scripts": {
+        "build": "vite build",
+        "dev": "vite",
+        "start": "vite",
+        "prod": "echo '⚡ Production mode'",
+        "test": "echo '🧪 No tests configured' && exit 0",
+        "lint": "echo '✨ No linting needed'",
+        "clean": "echo '🧹 Cleaning...' && rm -rf node_modules 2>/dev/null || true"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.4.23",
+        "axios": "^1.7.4",
+        "laravel-vite-plugin": "^2.0.1",
+        "postcss": "^8.5.6",
+        "tailwindcss": "^4.1.18"
+    },
+    "engines": {
+        "node": ">=14.0.0",
+        "npm": ">=6.0.0"
+    },
+    "dependencies": {
+        "vite": "^7.2.7"
+    }
+}

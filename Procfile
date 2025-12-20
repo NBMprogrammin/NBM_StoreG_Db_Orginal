@@ -1,0 +1,1 @@
+web: a2dismod mpm_event mpm_worker && a2enmod mpm_prefork rewrite && apache2-foreground
