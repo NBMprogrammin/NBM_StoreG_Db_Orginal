@@ -9,7 +9,8 @@ return [
         'http://localhost:5173', 
         'http://127.0.0.1:8000', 
         'https://nbmprogrammin.github.io',
-        'https://nbmstoreg-h11cy5f5a-nbmprogrammins-projects.vercel.app'
+        'https://nbmstoreg.vercel.app',
+        'nbmstoreg.vercel.app'
     ],
     
     'allowed_headers' => ['*'],
